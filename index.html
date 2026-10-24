@@ -1,1 +1,656 @@
+```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIDEFIT WINDOW | Luxury UPVC Doors & Windows Manufacturers Shahganj</title>
 
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts: Syne & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: {
+              950: '#060913',
+              900: '#0a0f1d',
+              850: '#0f172c',
+              800: '#15203b',
+              card: '#111b33',
+              border: '#1f2e52'
+            },
+            gold: {
+              300: '#fde68a',
+              400: '#fcd34d',
+              500: '#f59e0b',
+              metallic: '#e5a93c',
+              glow: 'rgba(229, 169, 60, 0.28)'
+            }
+          },
+          fontFamily: {
+            heading: ['"Syne"', 'sans-serif'],
+            body: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Architectural Gold Gradients and Highlights */
+    .gold-gradient-bg {
+      background: linear-gradient(135deg, #fcd34d 0%, #e5a93c 50%, #b47a16 100%);
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #ffffff 15%, #fde68a 55%, #e5a93c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-border-glow {
+      border: 1px solid rgba(229, 169, 60, 0.35);
+      box-shadow: 0 0 30px rgba(229, 169, 60, 0.12);
+    }
+    .glass-card {
+      background: rgba(17, 27, 51, 0.75);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(31, 46, 82, 0.85);
+    }
+    .glass-card:hover {
+      border-color: rgba(229, 169, 60, 0.5);
+    }
+  </style>
+</head>
+<body class="bg-obsidian-950 text-slate-200 font-body antialiased selection:bg-gold-metallic selection:text-obsidian-950 min-h-screen flex flex-col">
+
+  <!-- ================= TOP NAVIGATION BAR ================= -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-obsidian-950/90 border-b border-obsidian-border/80 px-4 sm:px-8 py-3.5 transition-all">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-xl gold-gradient-bg flex items-center justify-center text-obsidian-950 shadow-lg shadow-gold-500/20 group-hover:scale-105 transition-transform duration-300">
+          <i class="fa-solid fa-table-cells-large text-lg"></i>
+        </div>
+        <div>
+          <span class="font-heading font-extrabold text-lg sm:text-xl tracking-wider text-white block leading-tight">SIDEFIT <span class="gold-gradient-text">WINDOW</span></span>
+          <span class="text-[9px] uppercase tracking-[0.25em] text-gold-400 font-semibold block">UPVC Doors & Windows • Shahganj</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center space-x-7 text-xs font-semibold uppercase tracking-wider text-slate-300">
+        <a href="#benefits" class="hover:text-gold-400 transition">Advantages</a>
+        <a href="#catalog" class="hover:text-gold-400 transition">Collection</a>
+        <a href="#estimator" class="hover:text-gold-400 transition">Price Calculator</a>
+        <a href="#reviews" class="hover:text-gold-400 transition">Reviews</a>
+        <a href="#contact" class="hover:text-gold-400 transition">Contact</a>
+      </nav>
+
+      <!-- Header Action CTAs -->
+      <div class="flex items-center space-x-3">
+        <a href="https://instagram.com/sidefitindia" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 rounded-xl glass-card flex items-center justify-center text-pink-400 hover:text-white hover:border-pink-500/60 transition">
+          <i class="fa-brands fa-instagram text-sm"></i>
+        </a>
+        <a href="tel:+917011412787" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-bold text-white hover:border-gold-metallic/60 transition">
+          <i class="fa-solid fa-phone text-gold-400 text-xs"></i>
+          <span>+91 70114 12787</span>
+        </a>
+        <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20want%20a%20catalog%20and%20price%20estimate%20for%20UPVC%20Doors%20and%20Windows." target="_blank" rel="noopener" class="px-4 py-2 rounded-xl gold-gradient-bg text-obsidian-950 font-bold text-xs shadow-md shadow-gold-500/20 hover:brightness-110 active:scale-95 transition flex items-center gap-1.5">
+          <i class="fa-brands fa-whatsapp text-sm"></i>
+          <span class="hidden xs:inline">WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="hero" class="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center px-4 py-20 overflow-hidden border-b border-obsidian-border/50">
+    <!-- Architectural Glass Background Image -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85" alt="Luxury Architectural Home Windows" class="w-full h-full object-cover scale-105 filter brightness-[0.27] contrast-125">
+      <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/70 to-transparent"></div>
+      <div class="absolute inset-0 bg-radial from-transparent via-obsidian-950/50 to-obsidian-950"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-4xl mx-auto text-center px-2">
+      
+      <!-- Top Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card border-gold-metallic/40 text-gold-400 text-xs font-semibold mb-6 shadow-lg shadow-gold-900/30">
+        <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
+        Direct Manufacturer & Factory Outlet • Shahganj
+      </div>
+
+      <h1 class="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.12] mb-6">
+        Architectural Glass & Luxury <span class="gold-gradient-text">UPVC Windows</span>
+      </h1>
+
+      <p class="text-slate-300 text-sm sm:text-lg max-w-2xl mx-auto mb-10 font-normal leading-relaxed">
+        Elevate your home or commercial space in Shahganj with 90% soundproof acoustic glass, zero dust penetration, 100% waterproof sealing, and lifetime termite resistance.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+        <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20am%20interested%20in%20getting%20a%20free%20site%20measurement%20and%20quote%20in%20Shahganj." target="_blank" rel="noopener" class="w-full sm:w-auto px-7 py-4 rounded-xl gold-gradient-bg text-obsidian-950 font-bold text-sm shadow-xl shadow-gold-500/25 hover:brightness-110 active:scale-[0.98] transition flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>Free Site Measurement</span>
+        </a>
+        <a href="tel:+917011412787" class="w-full sm:w-auto px-7 py-4 rounded-xl glass-card border-obsidian-border text-white font-semibold text-sm hover:border-gold-400 active:scale-[0.98] transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-phone text-gold-400"></i>
+          <span>Call: +91 70114 12787</span>
+        </a>
+      </div>
+
+      <!-- Trust Metrics -->
+      <div class="grid grid-cols-3 gap-4 max-w-xl mx-auto mt-16 pt-8 border-t border-obsidian-border/70 text-center">
+        <div>
+          <p class="font-heading text-2xl sm:text-3xl text-gold-400 font-extrabold">90%</p>
+          <p class="text-[11px] text-slate-400 font-semibold uppercase tracking-wider mt-1">Noise Cut-off</p>
+        </div>
+        <div class="border-x border-obsidian-border">
+          <p class="font-heading text-2xl sm:text-3xl text-white font-extrabold">10+ Yrs</p>
+          <p class="text-[11px] text-slate-400 font-semibold uppercase tracking-wider mt-1">Warranty</p>
+        </div>
+        <div>
+          <p class="font-heading text-2xl sm:text-3xl text-gold-400 font-extrabold">100%</p>
+          <p class="text-[11px] text-slate-400 font-semibold uppercase tracking-wider mt-1">Waterproof</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= ADVANTAGES / WHY UPVC ================= -->
+  <section id="benefits" class="py-20 px-4 sm:px-8 bg-obsidian-900/60 border-b border-obsidian-border/50">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="text-center mb-14">
+        <span class="text-gold-400 text-xs uppercase tracking-[0.3em] font-bold">Engineering Excellence</span>
+        <h2 class="font-heading text-2xl sm:text-4xl text-white font-extrabold mt-2">Why Upgrade from Wood & Iron to UPVC?</h2>
+        <div class="w-16 h-1 gold-gradient-bg mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Feature 1 -->
+        <div class="glass-card p-6 rounded-2xl group hover:-translate-y-1.5 transition duration-300">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl mb-5 group-hover:scale-110 transition">
+            <i class="fa-solid fa-volume-xmark"></i>
+          </div>
+          <h3 class="font-heading text-lg font-bold text-white mb-2">90% Noise Insulation</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Multi-chambered profiles block train sirens from Shahganj Junction, horn blares, and roadside bazaar commotion.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="glass-card p-6 rounded-2xl group hover:-translate-y-1.5 transition duration-300">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl mb-5 group-hover:scale-110 transition">
+            <i class="fa-solid fa-cloud-showers-heavy"></i>
+          </div>
+          <h3 class="font-heading text-lg font-bold text-white mb-2">Dust & Monsoon Proof</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Double EPDM rubber gaskets completely seal windows against torrential rain seepage and fine highway dust.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="glass-card p-6 rounded-2xl group hover:-translate-y-1.5 transition duration-300">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl mb-5 group-hover:scale-110 transition">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="font-heading text-lg font-bold text-white mb-2">Termite & Rust Free</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Never decays like wooden doors and never corrodes like iron frames. Zero need for painting or repolishing forever.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="glass-card p-6 rounded-2xl group hover:-translate-y-1.5 transition duration-300">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl mb-5 group-hover:scale-110 transition">
+            <i class="fa-solid fa-temperature-arrow-down"></i>
+          </div>
+          <h3 class="font-heading text-lg font-bold text-white mb-2">30% AC Power Savings</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            High thermal insulation keeps indoor room cool during intense Uttar Pradesh summers, drastically reducing power bills.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCT CATALOG / CURATED SHOWCASE ================= -->
+  <section id="catalog" class="py-24 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div>
+          <span class="text-gold-400 text-xs uppercase tracking-[0.25em] font-bold">Curated Architectural Catalog</span>
+          <h2 class="font-heading text-2xl sm:text-4xl text-white font-extrabold mt-1.5">Custom UPVC Design Range</h2>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-400 max-w-md">
+          Available in Classic White, Elegant Charcoal Dark Grey, and Premium Royal Wooden Grain Finishes.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+        <!-- Product 1: 2/3 Track Sliding Windows -->
+        <div class="glass-card rounded-2xl overflow-hidden flex flex-col group transition duration-300 hover:border-gold-metallic/60">
+          <div class="h-60 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="2 and 3 Track Sliding UPVC Windows" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-obsidian-950/85 backdrop-blur-md text-gold-400 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border border-gold-metallic/30">Most Popular</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-white mb-2">2 & 3 Track Sliding Systems</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                Ultra-smooth silent sliding tracks with integrated SS mosquito mesh shutters. Ideal for bedrooms and living halls.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-obsidian-border flex items-center justify-between">
+              <span class="text-xs text-gold-400 font-semibold">Custom Sizes</span>
+              <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20please%20share%20rates%20for%202%20and%203%20Track%20Sliding%20Windows." target="_blank" rel="noopener" class="text-xs font-bold text-white hover:text-gold-400 transition flex items-center gap-1.5">
+                <span>Inquire Price</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Luxury Casement Windows -->
+        <div class="glass-card rounded-2xl overflow-hidden flex flex-col group transition duration-300 hover:border-gold-metallic/60">
+          <div class="h-60 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?auto=format&fit=crop&w=800&q=80" alt="Casement Openable UPVC Windows" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-obsidian-950/85 backdrop-blur-md text-gold-400 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border border-gold-metallic/30">Maximum Airflow</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-white mb-2">Airtight Casement Windows</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                Side-hung openable frames fitted with multi-point perimeter locks for 100% sealing against rainstorms and dust.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-obsidian-border flex items-center justify-between">
+              <span class="text-xs text-gold-400 font-semibold">Single / Double Pane</span>
+              <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20please%20share%20rates%20for%20Casement%20Openable%20Windows." target="_blank" rel="noopener" class="text-xs font-bold text-white hover:text-gold-400 transition flex items-center gap-1.5">
+                <span>Inquire Price</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Panoramic Balcony French Doors -->
+        <div class="glass-card rounded-2xl overflow-hidden flex flex-col group transition duration-300 hover:border-gold-metallic/60">
+          <div class="h-60 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Balcony French Sliding Doors" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-obsidian-950/85 backdrop-blur-md text-gold-400 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border border-gold-metallic/30">Luxury Villa Look</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-white mb-2">Balcony French & Villa Doors</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                Grand floor-to-ceiling panoramic glass sliding doors that convert balconies and terraces into architectural showstoppers.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-obsidian-border flex items-center justify-between">
+              <span class="text-xs text-gold-400 font-semibold">Heavy Duty Hardware</span>
+              <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20am%20interested%20in%20Balcony%20French%20Doors%20pricing." target="_blank" rel="noopener" class="text-xs font-bold text-white hover:text-gold-400 transition flex items-center gap-1.5">
+                <span>Inquire Price</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Tilt & Turn Modern German Style -->
+        <div class="glass-card rounded-2xl overflow-hidden flex flex-col group transition duration-300 hover:border-gold-metallic/60">
+          <div class="h-60 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80" alt="Tilt and Turn UPVC Windows" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-obsidian-950/85 backdrop-blur-md text-gold-400 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border border-gold-metallic/30">German Style</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-white mb-2">Tilt & Turn Smart Windows</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                Tilt inward at the top for rain-safe ventilation, or swing fully open like a door. Maximum safety and easy glass cleaning.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-obsidian-border flex items-center justify-between">
+              <span class="text-xs text-gold-400 font-semibold">Dual Mode Locking</span>
+              <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20want%20rates%20for%20Tilt%20and%20Turn%20Windows." target="_blank" rel="noopener" class="text-xs font-bold text-white hover:text-gold-400 transition flex items-center gap-1.5">
+                <span>Inquire Price</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5: Acoustic Soundproof Double Glazed Glass -->
+        <div class="glass-card rounded-2xl overflow-hidden flex flex-col group transition duration-300 hover:border-gold-metallic/60">
+          <div class="h-60 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80" alt="Acoustic Double Glazed Soundproof Windows" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-obsidian-950/85 backdrop-blur-md text-gold-400 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border border-gold-metallic/30">Acoustic Glass</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-white mb-2">Soundproof DGU Glass</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                Double Glazed Unit (DGU) with argon vacuum gap that cuts exterior noise by up to 40dB. Recommended for busy roads.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-obsidian-border flex items-center justify-between">
+              <span class="text-xs text-gold-400 font-semibold">Up to 40dB Drop</span>
+              <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20please%20share%20details%20for%20Soundproof%20DGU%20Glass%20Windows." target="_blank" rel="noopener" class="text-xs font-bold text-white hover:text-gold-400 transition flex items-center gap-1.5">
+                <span>Inquire Price</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6: Frosted & Designer Custom Glass -->
+        <div class="glass-card rounded-2xl overflow-hidden flex flex-col group transition duration-300 hover:border-gold-metallic/60">
+          <div class="h-60 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=800&q=80" alt="Frosted and Designer Mandir Glass Partitions" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3 left-3 bg-obsidian-950/85 backdrop-blur-md text-gold-400 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border border-gold-metallic/30">Custom Art</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-white mb-2">Frosted & Mandir Glass</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                Privacy frosted films, custom religious prints for home puja mandirs, fluted texture glass, and bathroom partitions.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-obsidian-border flex items-center justify-between">
+              <span class="text-xs text-gold-400 font-semibold">Toughened Glass</span>
+              <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20need%20custom%20designer%20frosted%20glass%20work." target="_blank" rel="noopener" class="text-xs font-bold text-white hover:text-gold-400 transition flex items-center gap-1.5">
+                <span>Inquire Price</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= LIVE ESTIMATOR SECTION ================= -->
+  <section id="estimator" class="py-20 px-4 sm:px-8 bg-obsidian-900/50 border-y border-obsidian-border/50">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center mb-10">
+        <span class="text-gold-400 text-xs uppercase tracking-[0.3em] font-bold">Instant Estimate</span>
+        <h2 class="font-heading text-2xl sm:text-4xl text-white font-extrabold mt-1.5">Calculate Your Project Estimate</h2>
+        <p class="text-xs sm:text-sm text-slate-400 max-w-lg mx-auto mt-2">
+          Select your requirements below and receive an estimated price range along with immediate site measurement scheduling.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 sm:p-10 rounded-3xl border-obsidian-border gold-border-glow">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+          
+          <!-- Window Type -->
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Select Style</label>
+            <select id="est-type" class="w-full bg-obsidian-850 border border-obsidian-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-metallic">
+              <option value="Sliding Windows (2/3 Track)">2/3 Track Sliding Window with Mesh</option>
+              <option value="Casement Openable Window">Casement Openable Window (Airtight)</option>
+              <option value="Balcony French Sliding Door">Balcony French / Villa Door</option>
+              <option value="Tilt & Turn German Window">Tilt & Turn German Style</option>
+              <option value="Designer / Mandir Glass">Designer Frosted Glass Partition</option>
+            </select>
+          </div>
+
+          <!-- Color Profile -->
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Profile Color</label>
+            <select id="est-color" class="w-full bg-obsidian-850 border border-obsidian-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-metallic">
+              <option value="Classic Architectural White">Classic White Profile</option>
+              <option value="Charcoal Dark Grey">Charcoal Dark Grey Profile</option>
+              <option value="Royal Golden Oak Wood Finish">Royal Wood Grain Finish</option>
+            </select>
+          </div>
+
+          <!-- Approximate Area -->
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Approx Total Area (Sq. Ft.)</label>
+            <input type="number" id="est-sqft" value="80" min="20" max="2500" class="w-full bg-obsidian-850 border border-obsidian-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-metallic" placeholder="e.g. 100">
+          </div>
+
+          <!-- Site Location -->
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Site Location</label>
+            <input type="text" id="est-location" value="Shahganj" class="w-full bg-obsidian-850 border border-obsidian-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-metallic" placeholder="e.g. Shahganj, Jaunpur, Azamgarh Rd">
+          </div>
+
+        </div>
+
+        <!-- Calculated Summary Box -->
+        <div class="p-5 rounded-2xl bg-obsidian-950/80 border border-obsidian-border flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <span class="text-xs text-slate-400 block">Estimated Fabrication Cost</span>
+            <span id="est-price-display" class="font-heading text-2xl sm:text-3xl text-gold-400 font-extrabold">₹32,000 – ₹42,000*</span>
+            <span class="text-[10px] text-slate-500 block mt-0.5">*Includes premium glass, locks & hardware. Final rate depends on measurement.</span>
+          </div>
+
+          <button id="send-estimate-btn" class="w-full sm:w-auto px-6 py-3.5 rounded-xl gold-gradient-bg text-obsidian-950 font-bold text-xs sm:text-sm hover:brightness-110 active:scale-95 transition flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>Send Estimate on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= REVIEWS & TRUST ================= -->
+  <section id="reviews" class="py-20 px-4 sm:px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="text-gold-400 text-xs uppercase tracking-[0.3em] font-bold">Client Satisfaction</span>
+        <h2 class="font-heading text-2xl sm:text-4xl text-white font-extrabold mt-1">Trusted Across Shahganj</h2>
+        <div class="w-16 h-1 gold-gradient-bg mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="glass-card p-6 rounded-2xl">
+          <div class="flex items-center text-gold-400 text-sm gap-1 mb-3">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+            "Hamara ghar railway station ke paas hai. Sidefit se double glass window lagwane ke baad train ka shor 80% kam ho gaya. Finishing ekdum top quality!"
+          </p>
+          <div class="border-t border-obsidian-border pt-3">
+            <h4 class="text-xs font-bold text-white">Rameshwar Shukla</h4>
+            <span class="text-[10px] text-slate-400">Civil Lines, Shahganj</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl">
+          <div class="flex items-center text-gold-400 text-sm gap-1 mb-3">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+            "Balcony me 3-track sliding door lagwaya jisme jali bhi hai. Macchar bilkul band ho gaye aur terrace ka view bahut shandar dikhta hai."
+          </p>
+          <div class="border-t border-obsidian-border pt-3">
+            <h4 class="text-xs font-bold text-white">Mohd. Danish</h4>
+            <span class="text-[10px] text-slate-400">Azamgarh Road, Shahganj</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl">
+          <div class="flex items-center text-gold-400 text-sm gap-1 mb-3">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+            "Workshop se direct factory price mil gayi bina kisi bicholiye ke. Laser se exact measurement liya aur 3 din me fitting complete kar di."
+          </p>
+          <div class="border-t border-obsidian-border pt-3">
+            <h4 class="text-xs font-bold text-white">Vikram Jaiswal</h4>
+            <span class="text-[10px] text-slate-400">New Market, Shahganj</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT HUB ================= -->
+  <section id="contact" class="py-20 px-4 sm:px-8 bg-obsidian-900/70 border-t border-obsidian-border/50">
+    <div class="max-w-4xl mx-auto text-center">
+      
+      <div class="w-16 h-16 mx-auto rounded-2xl gold-gradient-bg flex items-center justify-center text-obsidian-950 text-2xl mb-5 shadow-xl shadow-gold-500/20">
+        <i class="fa-solid fa-building-user"></i>
+      </div>
+
+      <span class="text-gold-400 text-xs uppercase tracking-[0.25em] font-bold">Direct Factory Hub</span>
+      <h2 class="font-heading text-2xl sm:text-4xl text-white font-extrabold mt-1 mb-3">Visit or Connect with Sidefit Window</h2>
+      <p class="text-slate-300 text-xs sm:text-sm max-w-md mx-auto mb-10">
+        Get free home site visit, profile catalog samples, and immediate quotation in Shahganj and nearby districts.
+      </p>
+
+      <!-- All Official Contact Channels -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+        
+        <!-- Phone Call (strictly 10 digits without leading 0) -->
+        <a href="tel:+917011412787" class="glass-card p-5 rounded-2xl hover:border-gold-400 group transition">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 mx-auto mb-3 group-hover:scale-110 transition">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Direct Call</span>
+          <span class="text-sm font-bold text-white block mt-0.5">+91 70114 12787</span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20want%20to%20order%20UPVC%20windows." target="_blank" rel="noopener" class="glass-card p-5 rounded-2xl hover:border-emerald-400 group transition">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mx-auto mb-3 group-hover:scale-110 transition">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <span class="text-[11px] text-slate-400 uppercase tracking-wider block">WhatsApp</span>
+          <span class="text-sm font-bold text-white block mt-0.5">+91 70114 12787</span>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:sidefitindia@gmail.com" class="glass-card p-5 rounded-2xl hover:border-sky-400 group transition">
+          <div class="w-10 h-10 rounded-xl bg-sky-500/10 flex items-center justify-center text-sky-400 mx-auto mb-3 group-hover:scale-110 transition">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Email Inquiries</span>
+          <span class="text-xs font-bold text-white block mt-1 truncate">sidefitindia@gmail.com</span>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/sidefitindia" target="_blank" rel="noopener" class="glass-card p-5 rounded-2xl hover:border-pink-400 group transition">
+          <div class="w-10 h-10 rounded-xl bg-pink-500/10 flex items-center justify-center text-pink-400 mx-auto mb-3 group-hover:scale-110 transition">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Instagram</span>
+          <span class="text-sm font-bold text-white block mt-0.5">@sidefitindia</span>
+        </a>
+
+      </div>
+
+      <!-- YouTube & Physical Location -->
+      <div class="flex flex-col sm:flex-row items-center justify-between p-4 rounded-2xl glass-card text-xs text-slate-300 gap-3">
+        <a href="https://www.youtube.com/@Sidefitindia" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 hover:text-white transition font-medium">
+          <i class="fa-brands fa-youtube text-base"></i>
+          <span>Watch Real Window Installations on YouTube: <strong>@Sidefitindia</strong></span>
+        </a>
+        <div class="flex items-center gap-2 text-slate-300">
+          <i class="fa-solid fa-location-dot text-gold-400"></i>
+          <span>Shahganj, Jaunpur, Uttar Pradesh</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= STICKY MOBILE QUICK-ACTION BAR ================= -->
+  <div class="sticky bottom-0 z-40 bg-obsidian-950/95 backdrop-blur-md border-t border-obsidian-border px-4 py-3 sm:hidden">
+    <div class="flex items-center gap-3">
+      <a href="tel:+917011412787" class="flex-1 py-3 rounded-xl glass-card text-white text-xs font-bold text-center flex items-center justify-center gap-2 active:scale-95 transition">
+        <i class="fa-solid fa-phone text-gold-400"></i>
+        <span>Call Now</span>
+      </a>
+      <a href="https://wa.me/917011412787?text=Hello%20Sidefit%20Window,%20I%20want%20to%20book%20a%20free%20site%20measurement%20for%20UPVC%20windows." target="_blank" rel="noopener" class="flex-1 py-3 rounded-xl gold-gradient-bg text-obsidian-950 text-xs font-extrabold text-center flex items-center justify-center gap-2 shadow-lg shadow-gold-500/20 active:scale-95 transition">
+        <i class="fa-brands fa-whatsapp text-base"></i>
+        <span>WhatsApp Quote</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="mt-auto py-7 border-t border-obsidian-border/50 text-center text-xs text-slate-500 bg-obsidian-950">
+    <p class="font-heading text-slate-400 tracking-wider font-semibold">SIDEFIT WINDOW • PREMIUM ARCHITECTURAL SYSTEMS</p>
+    <p class="mt-1 text-[11px] text-slate-600">Manufactured in Shahganj, Jaunpur (UP) • Phone: +91 70114 12787 • Email: sidefitindia@gmail.com</p>
+  </footer>
+
+  <!-- ================= ESTIMATOR INTERACTION JAVASCRIPT ================= -->
+  <script>
+    // Live Price Estimator Calculation
+    const typeSelect = document.getElementById('est-type');
+    const colorSelect = document.getElementById('est-color');
+    const sqftInput = document.getElementById('est-sqft');
+    const locationInput = document.getElementById('est-location');
+    const priceDisplay = document.getElementById('est-price-display');
+    const sendBtn = document.getElementById('send-estimate-btn');
+
+    function calculateEstimate() {
+      const sqft = parseFloat(sqftInput.value) || 50;
+      
+      // Base rate per square foot in INR
+      let baseRate = 420;
+      if (typeSelect.value.includes('Balcony')) baseRate = 520;
+      if (typeSelect.value.includes('Tilt')) baseRate = 580;
+      if (typeSelect.value.includes('Frosted')) baseRate = 460;
+
+      // Color multiplier
+      let colorMultiplier = 1.0;
+      if (colorSelect.value.includes('Charcoal')) colorMultiplier = 1.15;
+      if (colorSelect.value.includes('Wood')) colorMultiplier = 1.25;
+
+      const minTotal = Math.round(sqft * baseRate * colorMultiplier);
+      const maxTotal = Math.round(minTotal * 1.25);
+
+      priceDisplay.textContent = `₹${minTotal.toLocaleString('en-IN')} – ₹${maxTotal.toLocaleString('en-IN')}*`;
+    }
+
+    // Attach listeners
+    typeSelect.addEventListener('change', calculateEstimate);
+    colorSelect.addEventListener('change', calculateEstimate);
+    sqftInput.addEventListener('input', calculateEstimate);
+
+    // Dynamic WhatsApp Link Generation
+    sendBtn.addEventListener('click', function() {
+      const type = encodeURIComponent(typeSelect.value);
+      const color = encodeURIComponent(colorSelect.value);
+      const sqft = encodeURIComponent(sqftInput.value);
+      const loc = encodeURIComponent(locationInput.value || 'Shahganj');
+      const estPrice = encodeURIComponent(priceDisplay.textContent);
+
+      const msg = `Hello Sidefit Window,%0A%0AI want an estimate for UPVC fabrication:%0A- *Type:* ${type}%0A- *Color:* ${color}%0A- *Area:* ${sqft} Sq. Ft.%0A- *Site Location:* ${loc}%0A- *Estimated Budget:* ${estPrice}%0A%0APlease contact me to confirm measurement.`;
+      
+      window.open(`https://wa.me/917011412787?text=${msg}`, '_blank');
+    });
+
+    // Run initial calculation
+    calculateEstimate();
+  </script>
+
+</body>
+</html>
+```
